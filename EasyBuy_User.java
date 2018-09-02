@@ -1,11 +1,10 @@
-package easybuy.entity;
+﻿package easybuy.entity;
 
 import java.io.Serializable;
 
 public class EasyBuy_User implements Serializable{
 
-		private Integer id;
-		private String loginName;//ID
+		
 		private String userName;//用户名
 		private String password;//密码
 		private Integer sex;//性别
@@ -13,6 +12,8 @@ public class EasyBuy_User implements Serializable{
 		private String email;//电子邮箱
 		private String mobile;//电话
 		private Integer type;
+
+
 		public Integer getId() {
 			return id;
 		}
